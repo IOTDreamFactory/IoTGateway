@@ -1,0 +1,1062 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+    <!--A Block-->
+    <LinearLayout
+        android:layout_row="0"
+        android:layout_column="0"
+        android:layout_width="183dp"
+        android:layout_height="206dp"
+        android:orientation="vertical"
+        android:background="@drawable/block"
+        android:id="@+id/backgroundA_1">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" A-1"
+            android:textSize="35dp"
+            android:typeface="normal"
+            android:textColor="#000000" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" 10℃"
+            android:textSize="25dp"
+            android:textColor="#000000"
+            android:id="@+id/A_1_temp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" 20%"
+            android:textSize="25dp"
+            android:textColor="#000000"
+            android:id="@+id/A_1_humi" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_row="0"
+        android:layout_column="1"
+        android:layout_width="183dp"
+        android:layout_height="206dp"
+        android:orientation="vertical"
+        android:background="@drawable/block"
+        android:id="@+id/backgroundA_2">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" A-2"
+            android:textSize="35dp"
+            android:typeface="normal"
+            android:textColor="#000000" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" 10℃"
+            android:textSize="25dp"
+            android:textColor="#000000"
+            android:id="@+id/A_2_temp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" 20%"
+            android:textSize="25dp"
+            android:textColor="#000000"
+            android:id="@+id/A_2_humi" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_row="0"
+        android:layout_column="2"
+        android:layout_width="183dp"
+        android:layout_height="206dp"
+        android:orientation="vertical"
+        android:background="@drawable/block"
+        android:id="@+id/backgroundA_3">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" A-3"
+            android:textSize="35dp"
+            android:typeface="normal"
+            android:textColor="#000000" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" 10℃"
+            android:textSize="25dp"
+            android:textColor="#000000"
+            android:id="@+id/A_3_temp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" 20%"
+            android:textSize="25dp"
+            android:textColor="#000000"
+            android:id="@+id/A_3_humi" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_row="0"
+        android:layout_column="3"
+        android:layout_width="183dp"
+        android:layout_height="206dp"
+        android:orientation="vertical"
+        android:background="@drawable/block"
+        android:id="@+id/backgroundA_4">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" A-4"
+            android:textSize="35dp"
+            android:typeface="normal"
+            android:textColor="#000000" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" 10℃"
+            android:textSize="25dp"
+            android:textColor="#000000"
+            android:id="@+id/A_4_temp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" 20%"
+            android:textSize="25dp"
+            android:textColor="#000000"
+            android:id="@+id/A_4_humi" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_row="0"
+        android:layout_column="4"
+        android:layout_width="183dp"
+        android:layout_height="206dp"
+        android:orientation="vertical"
+        android:background="@drawable/block"
+        android:id="@+id/backgroundA_5">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" A-5"
+            android:textSize="35dp"
+            android:typeface="normal"
+            android:textColor="#000000" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" 10℃"
+            android:textSize="25dp"
+            android:textColor="#000000"
+            android:id="@+id/A_5_temp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" 20%"
+            android:textSize="25dp"
+            android:textColor="#000000"
+            android:id="@+id/A_5_humi" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_row="0"
+        android:layout_column="5"
+        android:layout_width="183dp"
+        android:layout_height="206dp"
+        android:orientation="vertical"
+        android:background="@drawable/block"
+        android:id="@+id/backgroundA_6">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" A-6"
+            android:textSize="35dp"
+            android:typeface="normal"
+            android:textColor="#000000" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" 10℃"
+            android:textSize="25dp"
+            android:textColor="#000000"
+            android:id="@+id/A_6_temp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" 20%"
+            android:textSize="25dp"
+            android:textColor="#000000"
+            android:id="@+id/A_6_humi" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_row="0"
+        android:layout_column="6"
+        android:layout_width="183dp"
+        android:layout_height="206dp"
+        android:orientation="vertical"
+        android:background="@drawable/block"
+        android:id="@+id/backgroundA_7">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" A-7"
+            android:textSize="35dp"
+            android:typeface="normal"
+            android:textColor="#000000" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" 10℃"
+            android:textSize="25dp"
+            android:textColor="#000000"
+            android:id="@+id/A_7_temp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" 20%"
+            android:textSize="25dp"
+            android:textColor="#000000"
+            android:id="@+id/A_7_humi" />
+    </LinearLayout>
+    <!--B Block-->
+    <LinearLayout
+        android:layout_row="1"
+        android:layout_column="0"
+        android:layout_width="183dp"
+        android:layout_height="206dp"
+        android:orientation="vertical"
+        android:background="@drawable/block"
+        android:id="@+id/backgroundB_1">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" B-1"
+            android:textSize="35dp"
+            android:typeface="normal"
+            android:textColor="#000000" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" 10℃"
+            android:textSize="25dp"
+            android:textColor="#000000"
+            android:id="@+id/B_1_temp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" 20%"
+            android:textSize="25dp"
+            android:textColor="#000000"
+            android:id="@+id/B_1_humi" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_row="1"
+        android:layout_column="1"
+        android:layout_width="183dp"
+        android:layout_height="206dp"
+        android:orientation="vertical"
+        android:background="@drawable/block"
+        android:id="@+id/backgroundB_2">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" B-2"
+            android:textSize="35dp"
+            android:typeface="normal"
+            android:textColor="#000000" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" 10℃"
+            android:textSize="25dp"
+            android:textColor="#000000"
+            android:id="@+id/B_2_temp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" 20%"
+            android:textSize="25dp"
+            android:textColor="#000000"
+            android:id="@+id/B_2_humi" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_row="1"
+        android:layout_column="2"
+        android:layout_width="183dp"
+        android:layout_height="206dp"
+        android:orientation="vertical"
+        android:background="@drawable/block"
+        android:id="@+id/backgroundB_3">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" B-3"
+            android:textSize="35dp"
+            android:typeface="normal"
+            android:textColor="#000000" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" 10℃"
+            android:textSize="25dp"
+            android:textColor="#000000"
+            android:id="@+id/B_3_temp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" 20%"
+            android:textSize="25dp"
+            android:textColor="#000000"
+            android:id="@+id/B_3_humi" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_row="1"
+        android:layout_column="3"
+        android:layout_width="183dp"
+        android:layout_height="206dp"
+        android:orientation="vertical"
+        android:background="@drawable/block"
+        android:id="@+id/backgroundB_4">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" B-4"
+            android:textSize="35dp"
+            android:typeface="normal"
+            android:textColor="#000000" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" 10℃"
+            android:textSize="25dp"
+            android:textColor="#000000"
+            android:id="@+id/B_4_temp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" 20%"
+            android:textSize="25dp"
+            android:textColor="#000000"
+            android:id="@+id/B_4_humi" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_row="1"
+        android:layout_column="4"
+        android:layout_width="183dp"
+        android:layout_height="206dp"
+        android:orientation="vertical"
+        android:background="@drawable/block"
+        android:id="@+id/backgroundB_5">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" B-5"
+            android:textSize="35dp"
+            android:typeface="normal"
+            android:textColor="#000000" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" 10℃"
+            android:textSize="25dp"
+            android:textColor="#000000"
+            android:id="@+id/B_5_temp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" 20%"
+            android:textSize="25dp"
+            android:textColor="#000000"
+            android:id="@+id/B_5_humi" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_row="1"
+        android:layout_column="5"
+        android:layout_width="183dp"
+        android:layout_height="206dp"
+        android:orientation="vertical"
+        android:background="@drawable/block"
+        android:id="@+id/backgroundB_6">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" B-6"
+            android:textSize="35dp"
+            android:typeface="normal"
+            android:textColor="#000000" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" 10℃"
+            android:textSize="25dp"
+            android:textColor="#000000"
+            android:id="@+id/B_6_temp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" 20%"
+            android:textSize="25dp"
+            android:textColor="#000000"
+            android:id="@+id/B_6_humi" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_row="1"
+        android:layout_column="6"
+        android:layout_width="183dp"
+        android:layout_height="206dp"
+        android:orientation="vertical"
+        android:background="@drawable/block"
+        android:id="@+id/backgroundB_7">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" B-7"
+            android:textSize="35dp"
+            android:typeface="normal"
+            android:textColor="#000000" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" 10℃"
+            android:textSize="25dp"
+            android:textColor="#000000"
+            android:id="@+id/B_7_temp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" 20%"
+            android:textSize="25dp"
+            android:textColor="#000000"
+            android:id="@+id/B_7_humi" />
+    </LinearLayout>
+    <!--C Block-->
+    <LinearLayout
+        android:layout_row="2"
+        android:layout_column="0"
+        android:layout_width="183dp"
+        android:layout_height="206dp"
+        android:orientation="vertical"
+        android:background="@drawable/block"
+        android:id="@+id/backgroundC_1">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" C-1"
+            android:textSize="35dp"
+            android:typeface="normal"
+            android:textColor="#000000" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" 10℃"
+            android:textSize="25dp"
+            android:textColor="#000000"
+            android:id="@+id/C_1_temp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" 20%"
+            android:textSize="25dp"
+            android:textColor="#000000"
+            android:id="@+id/C_1_humi" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_row="2"
+        android:layout_column="1"
+        android:layout_width="183dp"
+        android:layout_height="206dp"
+        android:orientation="vertical"
+        android:background="@drawable/block"
+        android:id="@+id/backgroundC_2">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" C-2"
+            android:textSize="35dp"
+            android:typeface="normal"
+            android:textColor="#000000" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" 10℃"
+            android:textSize="25dp"
+            android:textColor="#000000"
+            android:id="@+id/C_2_temp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" 20%"
+            android:textSize="25dp"
+            android:textColor="#000000"
+            android:id="@+id/C_2_humi" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_row="2"
+        android:layout_column="2"
+        android:layout_width="183dp"
+        android:layout_height="206dp"
+        android:orientation="vertical"
+        android:background="@drawable/block"
+        android:id="@+id/backgroundC_3">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" C-3"
+            android:textSize="35dp"
+            android:typeface="normal"
+            android:textColor="#000000" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" 10℃"
+            android:textSize="25dp"
+            android:textColor="#000000"
+            android:id="@+id/C_3_temp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" 20%"
+            android:textSize="25dp"
+            android:textColor="#000000"
+            android:id="@+id/C_3_humi" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_row="2"
+        android:layout_column="3"
+        android:layout_width="183dp"
+        android:layout_height="206dp"
+        android:orientation="vertical"
+        android:background="@drawable/block"
+        android:id="@+id/backgroundC_4">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" C-4"
+            android:textSize="35dp"
+            android:typeface="normal"
+            android:textColor="#000000" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" 10℃"
+            android:textSize="25dp"
+            android:textColor="#000000"
+            android:id="@+id/C_4_temp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" 20%"
+            android:textSize="25dp"
+            android:textColor="#000000"
+            android:id="@+id/C_4_humi" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_row="2"
+        android:layout_column="4"
+        android:layout_width="183dp"
+        android:layout_height="206dp"
+        android:orientation="vertical"
+        android:background="@drawable/block"
+        android:id="@+id/backgroundC_5">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" C-5"
+            android:textSize="35dp"
+            android:typeface="normal"
+            android:textColor="#000000" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" 10℃"
+            android:textSize="25dp"
+            android:textColor="#000000"
+            android:id="@+id/C_5_temp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" 20%"
+            android:textSize="25dp"
+            android:textColor="#000000"
+            android:id="@+id/C_5_humi" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_row="2"
+        android:layout_column="5"
+        android:layout_width="183dp"
+        android:layout_height="206dp"
+        android:orientation="vertical"
+        android:background="@drawable/block"
+        android:id="@+id/backgroundC_6">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" C-6"
+            android:textSize="35dp"
+            android:typeface="normal"
+            android:textColor="#000000" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" 10℃"
+            android:textSize="25dp"
+            android:textColor="#000000"
+            android:id="@+id/C_6_temp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" 20%"
+            android:textSize="25dp"
+            android:textColor="#000000"
+            android:id="@+id/C_6_humi" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_row="2"
+        android:layout_column="6"
+        android:layout_width="183dp"
+        android:layout_height="206dp"
+        android:orientation="vertical"
+        android:background="@drawable/block"
+        android:id="@+id/backgroundC_7">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" C-7"
+            android:textSize="35dp"
+            android:typeface="normal"
+            android:textColor="#000000" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" 10℃"
+            android:textSize="25dp"
+            android:textColor="#000000"
+            android:id="@+id/C_7_temp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" 20%"
+            android:textSize="25dp"
+            android:textColor="#000000"
+            android:id="@+id/C_7_humi" />
+    </LinearLayout>
+    <!--D Block-->
+    <LinearLayout
+        android:layout_row="3"
+        android:layout_column="0"
+        android:layout_width="183dp"
+        android:layout_height="206dp"
+        android:orientation="vertical"
+        android:background="@drawable/block"
+        android:id="@+id/backgroundD_1">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" D-1"
+            android:textSize="35dp"
+            android:typeface="normal"
+            android:textColor="#000000" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" 10℃"
+            android:textSize="25dp"
+            android:textColor="#000000"
+            android:id="@+id/D_1_temp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" 20%"
+            android:textSize="25dp"
+            android:textColor="#000000"
+            android:id="@+id/D_1_humi" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_row="3"
+        android:layout_column="1"
+        android:layout_width="183dp"
+        android:layout_height="206dp"
+        android:orientation="vertical"
+        android:background="@drawable/block"
+        android:id="@+id/backgroundD_2">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" D-2"
+            android:textSize="35dp"
+            android:typeface="normal"
+            android:textColor="#000000" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" 10℃"
+            android:textSize="25dp"
+            android:textColor="#000000"
+            android:id="@+id/D_2_temp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" 20%"
+            android:textSize="25dp"
+            android:textColor="#000000"
+            android:id="@+id/D_2_humi" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_row="3"
+        android:layout_column="2"
+        android:layout_width="183dp"
+        android:layout_height="206dp"
+        android:orientation="vertical"
+        android:background="@drawable/block"
+        android:id="@+id/backgroundD_3">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" D-3"
+            android:textSize="35dp"
+            android:typeface="normal"
+            android:textColor="#000000" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" 10℃"
+            android:textSize="25dp"
+            android:textColor="#000000"
+            android:id="@+id/D_3_temp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" 20%"
+            android:textSize="25dp"
+            android:textColor="#000000"
+            android:id="@+id/D_3_humi" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_row="3"
+        android:layout_column="3"
+        android:layout_width="183dp"
+        android:layout_height="206dp"
+        android:orientation="vertical"
+        android:background="@drawable/block"
+        android:id="@+id/backgroundD_4">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" D-4"
+            android:textSize="35dp"
+            android:typeface="normal"
+            android:textColor="#000000" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" 10℃"
+            android:textSize="25dp"
+            android:textColor="#000000"
+            android:id="@+id/D_4_temp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" 20%"
+            android:textSize="25dp"
+            android:textColor="#000000"
+            android:id="@+id/D_4_humi" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_row="3"
+        android:layout_column="4"
+        android:layout_width="183dp"
+        android:layout_height="206dp"
+        android:orientation="vertical"
+        android:background="@drawable/block"
+        android:id="@+id/backgroundD_5">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" D-5"
+            android:textSize="35dp"
+            android:typeface="normal"
+            android:textColor="#000000" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" 10℃"
+            android:textSize="25dp"
+            android:textColor="#000000"
+            android:id="@+id/D_5_temp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" 20%"
+            android:textSize="25dp"
+            android:textColor="#000000"
+            android:id="@+id/D_5_humi" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_row="3"
+        android:layout_column="5"
+        android:layout_width="183dp"
+        android:layout_height="206dp"
+        android:orientation="vertical"
+        android:background="@drawable/block"
+        android:id="@+id/backgroundD_6">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" D-6"
+            android:textSize="35dp"
+            android:typeface="normal"
+            android:textColor="#000000" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" 10℃"
+            android:textSize="25dp"
+            android:textColor="#000000"
+            android:id="@+id/D_6_temp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" 20%"
+            android:textSize="25dp"
+            android:textColor="#000000"
+            android:id="@+id/D_6_humi" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_row="3"
+        android:layout_column="6"
+        android:layout_width="183dp"
+        android:layout_height="206dp"
+        android:orientation="vertical"
+        android:background="@drawable/block"
+        android:id="@+id/backgroundD_7">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" D-7"
+            android:textSize="35dp"
+            android:typeface="normal"
+            android:textColor="#000000" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" 10℃"
+            android:textSize="25dp"
+            android:textColor="#000000"
+            android:id="@+id/D_7_temp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" 20%"
+            android:textSize="25dp"
+            android:textColor="#000000"
+            android:id="@+id/D_7_humi" />
+    </LinearLayout>
+    <!--E Block-->
+    <LinearLayout
+        android:layout_row="4"
+        android:layout_column="0"
+        android:layout_width="183dp"
+        android:layout_height="206dp"
+        android:orientation="vertical"
+        android:background="@drawable/block"
+        android:id="@+id/backgroundE_1">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" E-1"
+            android:textSize="35dp"
+            android:typeface="normal"
+            android:textColor="#000000" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" 10℃"
+            android:textSize="25dp"
+            android:textColor="#000000"
+            android:id="@+id/E_1_temp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" 20%"
+            android:textSize="25dp"
+            android:textColor="#000000"
+            android:id="@+id/E_1_humi" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_row="4"
+        android:layout_column="1"
+        android:layout_width="183dp"
+        android:layout_height="206dp"
+        android:orientation="vertical"
+        android:background="@drawable/block"
+        android:id="@+id/backgroundE_2">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" E-2"
+            android:textSize="35dp"
+            android:typeface="normal"
+            android:textColor="#000000" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" 10℃"
+            android:textSize="25dp"
+            android:textColor="#000000"
+            android:id="@+id/E_2_temp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" 20%"
+            android:textSize="25dp"
+            android:textColor="#000000"
+            android:id="@+id/E_2_humi" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_row="4"
+        android:layout_column="2"
+        android:layout_width="183dp"
+        android:layout_height="206dp"
+        android:orientation="vertical"
+        android:background="@drawable/block"
+        android:id="@+id/backgroundE_3">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" E-3"
+            android:textSize="35dp"
+            android:typeface="normal"
+            android:textColor="#000000" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" 10℃"
+            android:textSize="25dp"
+            android:textColor="#000000"
+            android:id="@+id/E_3_temp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" 20%"
+            android:textSize="25dp"
+            android:textColor="#000000"
+            android:id="@+id/E_3_humi" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_row="4"
+        android:layout_column="3"
+        android:layout_width="183dp"
+        android:layout_height="206dp"
+        android:orientation="vertical"
+        android:background="@drawable/block"
+        android:id="@+id/backgroundE_4">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" E-4"
+            android:textSize="35dp"
+            android:typeface="normal"
+            android:textColor="#000000" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" 10℃"
+            android:textSize="25dp"
+            android:textColor="#000000"
+            android:id="@+id/E_4_temp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" 20%"
+            android:textSize="25dp"
+            android:textColor="#000000"
+            android:id="@+id/E_4_humi" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_row="4"
+        android:layout_column="4"
+        android:layout_width="183dp"
+        android:layout_height="206dp"
+        android:orientation="vertical"
+        android:background="@drawable/block"
+        android:id="@+id/backgroundE_5">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" E-5"
+            android:textSize="35dp"
+            android:typeface="normal"
+            android:textColor="#000000" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" 10℃"
+            android:textSize="25dp"
+            android:textColor="#000000"
+            android:id="@+id/E_5_temp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" 20%"
+            android:textSize="25dp"
+            android:textColor="#000000"
+            android:id="@+id/E_5_humi" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_row="4"
+        android:layout_column="5"
+        android:layout_width="183dp"
+        android:layout_height="206dp"
+        android:orientation="vertical"
+        android:background="@drawable/block"
+        android:id="@+id/backgroundE_6">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" E-6"
+            android:textSize="35dp"
+            android:typeface="normal"
+            android:textColor="#000000" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" 10℃"
+            android:textSize="25dp"
+            android:textColor="#000000"
+            android:id="@+id/E_6_temp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" 20%"
+            android:textSize="25dp"
+            android:textColor="#000000"
+            android:id="@+id/E_6_humi" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_row="4"
+        android:layout_column="6"
+        android:layout_width="183dp"
+        android:layout_height="206dp"
+        android:orientation="vertical"
+        android:background="@drawable/block"
+        android:id="@+id/backgroundE_7">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" E-7"
+            android:textSize="35dp"
+            android:typeface="normal"
+            android:textColor="#000000" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" 10℃"
+            android:textSize="25dp"
+            android:textColor="#000000"
+            android:id="@+id/E_7_temp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" 20%"
+            android:textSize="25dp"
+            android:textColor="#000000"
+            android:id="@+id/E_7_humi" />
+    </LinearLayout>
+</GridLayout>

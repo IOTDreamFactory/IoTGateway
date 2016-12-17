@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="HighTemp">#FF0000</color>
+    <color name="LowTemp">#000FFF</color>
+    <color name="HighHumi">#007FFF</color>
+    <color name="LowHumi">#778899</color>
+    <color name="Offline">#000000</color>
+</resources>
